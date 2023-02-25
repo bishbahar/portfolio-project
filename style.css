@@ -72,3 +72,14 @@ p {
     margin: 0 auto;
   }
 }
+.about-section{
+  padding: 150px 20px;
+}
+
+.about-section-content{
+  margin: 20px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
