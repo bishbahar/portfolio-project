@@ -15,11 +15,38 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
+ <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>About me</title>
+        <meta name="description" content="About Narges. Narges is a front-end engineer based in Iran.">
+
+    <title>About Narges Bishbahar</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="shecodes logo">
+          <img src="images/logo-small.png" class="logo d-block d-md-none" alt="shecodes logo">
+        </a>
+        <ul>
+          <li >
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Narges"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Narges's works"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Narges"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -38,13 +65,46 @@
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding" title="Narges's works">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/mypic.png" alt="" class="img-fluid"/>
+          <img src="images/mypic.png" alt="Narges Bishbahar's picture" class="img-fluid"/>
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Narges"> Contact me </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:narges.bishbahar@gmail.com" class="email-link" title="Email Narges">
+           narges.bishbahar@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.github.com/bishbahar" target="_blank" title="Narges's github account">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instragram.com/nargesbishbahar" target="_blank" title="Narges's Instagram account">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.twitter.com/iranzadgah" target="_blank" title="Narges's twitter account">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          This website was coded by Narges Bishbahar, and is
+          <a href="https://github.com/bishbahar/portfolio-project" target="_blank" title="project repository on github">
+            open-sourced
+          </a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>
